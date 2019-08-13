@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<dl>
+  <dt>
+    name
+  </dt>
+  <dd>
+    Darla
+  </dd>
+  <dt>
+    age
+  </dt>
+  <dd>
+    5
+  </dd>
+  <dt>
+    weight
+  </dt>
+  <dd>
+    8 lbs
+  </dd>
+</dl>
+`;
