@@ -11,7 +11,7 @@ export default function Color() {
       return (
         <>
           <dt>{key}</dt>
-          <dd>{color[key]}</dd>
+          <dd style={{ color: '#F699E0' }}>{color[key]}</dd>
         </>
       );
     });
