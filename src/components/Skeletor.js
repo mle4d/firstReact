@@ -4,8 +4,7 @@ export default function Skeletor({ Name, Color, Trait, hex }) {
   const Skeletor = {
     Name,
     Color,
-    Trait,
-    hex
+    Trait
   };
   const fields = Object.keys(Skeletor)
     .map(key => {

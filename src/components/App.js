@@ -4,6 +4,7 @@ import Color from './Color';
 import Cat from './Cat';
 import MylittlePony from './MyLittlePony';
 import Skeletor from './Skeletor';
+import Ghibli from './Ghibli';
 
 
 
@@ -16,6 +17,7 @@ export default function App() {
       <h3>Colors</h3>
       <Color Name="Pretty Pink" RGB="246 153 224" Hex="#F699E0" />
       <Color Name="Pretty Purple" RGB="205 138 243" Hex="#CD8AF3" />
+      <Color Name="Aqua" RGB="81 232 207" Hex="#51E8CF" />
       <h3>Cats</h3>
       <Cat Name="Br'er" Age={5} Weight="28lbs" />
       <Cat Name="Darla" Age={5} Weight="8lbs" />
@@ -24,6 +26,8 @@ export default function App() {
       <MylittlePony Name="Minty"  Color="Mint" CutieMark="Mint Candy" hex="#77F6EE"/>
       <h3>He-man Character</h3>
       <Skeletor Name="Skeletor" Color="Purple & Blue" Trait="Evil" hex="#9966FF"/>
+      <h3>Studio Ghibli Character</h3>
+      <Ghibli Name="Totoro"  Color="Grey" Movie="My Neighbor Totoro" hex="#808080"/>
       </>
   );
   
