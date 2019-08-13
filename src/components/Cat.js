@@ -1,23 +1,23 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function Cat({ name, age, weight }) {
-  const cat = {
-    name,
-    age,
-    weight
-  };
-  const fields = Object.keys(cat)
-    .map(key => {
-      return (
-        <>
-          <dt>{key}</dt>
-          <dd>{cat[key]}</dd>
-        </>
-      );
-    });
+function Cat({ Name, Age, Weight }) {
   return (
     <dl>
-      {fields}
+      <dt>Name</dt>
+      <dd>{Name}</dd>
+      <dt>Age</dt>
+      <dd>{Age}</dd>
+      <dt>Weight</dt>
+      <dd>{Weight}</dd>
     </dl>
   );
 }
+
+Cat.propTypes = {
+  Name: PropTypes.string.isRequired,
+  Age: PropTypes.number.isRequired,
+  Weight: PropTypes.string.isRequired
+};
+
+export default Cat;

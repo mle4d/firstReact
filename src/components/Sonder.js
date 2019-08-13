@@ -1,17 +1,17 @@
 import React from 'react';
 
-export default function Color({ Name, RGB, Hex }) {
-  const color = {
+export default function Sonder({ Name, Birthday, Lifestyle }) {
+  const Sonder = {
     Name,
-    RGB,
-    Hex
+    Birthday,
+    Lifestyle
   };
-  const fields = Object.keys(color)
+  const fields = Object.keys(Sonder)
     .map(key => {
       return (
         <>
           <dt>{key}</dt>
-          <dd style={{ color: Hex }}>{color[key]}</dd>
+          <dd>{Sonder[key]}</dd>
         </>
       );
     });
