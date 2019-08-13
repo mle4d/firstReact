@@ -6,8 +6,8 @@ import Cat from './Cat';
 export default function App() {
   return  (
     <>
-      <Color />
-      <Cat />
+      <Color name="Pretty Pink" rgb="246 153 224" hex="#F699E0" />
+      <Cat name="Brer" age={5} weight="28lbs" />
       </>
   );
   

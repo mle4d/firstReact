@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Cat() {
+export default function Cat({ name, age, weight }) {
   const cat = {
-    name: 'Darla',
-    age: 5,
-    weight: '8 lbs'
+    name,
+    age,
+    weight
   };
   const fields = Object.keys(cat)
     .map(key => {

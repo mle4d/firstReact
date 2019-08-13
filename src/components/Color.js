@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Color() {
+export default function Color({ name, rgb, hex }) {
   const color = {
-    name: 'Pretty Pink',
-    rgb: '246 153 224',
-    hex: '#F699E0'
+    name,
+    rgb,
+    hex
   };
   const fields = Object.keys(color)
     .map(key => {
