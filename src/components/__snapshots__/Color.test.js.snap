@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<dl>
+  <dt>
+    name
+  </dt>
+  <dd
+    style={
+      Object {
+        "color": "#F699E0",
+      }
+    }
+  >
+    Pretty Pink
+  </dd>
+  <dt>
+    rgb
+  </dt>
+  <dd
+    style={
+      Object {
+        "color": "#F699E0",
+      }
+    }
+  >
+    246 153 224
+  </dd>
+  <dt>
+    hex
+  </dt>
+  <dd
+    style={
+      Object {
+        "color": "#F699E0",
+      }
+    }
+  >
+    #F699E0
+  </dd>
+</dl>
+`;
