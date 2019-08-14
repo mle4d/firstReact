@@ -3,7 +3,11 @@
 exports[`App component renders App 1`] = `
 <dl>
   <dt>
-    Name
+    Character
+  </dt>
+  <dd />
+  <dt>
+    Color
   </dt>
   <dd
     style={
@@ -13,24 +17,8 @@ exports[`App component renders App 1`] = `
     }
   />
   <dt>
-    RGB
+    Movie
   </dt>
-  <dd
-    style={
-      Object {
-        "color": undefined,
-      }
-    }
-  />
-  <dt>
-    Hex
-  </dt>
-  <dd
-    style={
-      Object {
-        "color": undefined,
-      }
-    }
-  />
+  <dd />
 </dl>
 `;

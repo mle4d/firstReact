@@ -27,7 +27,7 @@ export default function App() {
       <h3>He-man Character</h3>
       <Skeletor Name="Skeletor" Color="Purple & Blue" Trait="Evil" hex="#9966FF"/>
       <h3>Studio Ghibli Character</h3>
-      <Ghibli Name="Totoro"  Color="Grey" Movie="My Neighbor Totoro" hex="#808080"/>
+      <Ghibli Character="Totoro"  Color="Grey" Movie="My Neighbor Totoro" hex="#808080"/>
       </>
   );
   

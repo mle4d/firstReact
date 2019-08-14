@@ -7,11 +7,11 @@ exports[`App component renders App 1`] = `
   </dt>
   <dd />
   <dt>
-    Age
+    Birthday
   </dt>
   <dd />
   <dt>
-    Weight
+    Lifestyle
   </dt>
   <dd />
 </dl>

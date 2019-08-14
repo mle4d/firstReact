@@ -2,7 +2,80 @@
 
 exports[`App component renders App 1`] = `
 <Fragment>
-  <Color />
-  <Cat />
+  <h1>
+    Mle's Favorite Things
+  </h1>
+  <h3>
+    Child
+  </h3>
+  <Sonder
+    Birthday="2-2-2016"
+    Lifestyle="Vegan"
+    Name="Sonder"
+  />
+  <h3>
+    Colors
+  </h3>
+  <Color
+    Hex="#F699E0"
+    Name="Pretty Pink"
+    RGB="246 153 224"
+  />
+  <Color
+    Hex="#CD8AF3"
+    Name="Pretty Purple"
+    RGB="205 138 243"
+  />
+  <Color
+    Hex="#51E8CF"
+    Name="Aqua"
+    RGB="81 232 207"
+  />
+  <h3>
+    Cats
+  </h3>
+  <Cat
+    Age={5}
+    Name="Br'er"
+    Weight="28lbs"
+  />
+  <Cat
+    Age={5}
+    Name="Darla"
+    Weight="8lbs"
+  />
+  <h3>
+    My Little Ponies
+  </h3>
+  <MyLittlePony
+    Color="Blue"
+    CutieMark="Pastel Rainbow"
+    Name="Rainbow Dash"
+    hex="#77B6F6"
+  />
+  <MyLittlePony
+    Color="Mint"
+    CutieMark="Mint Candy"
+    Name="Minty"
+    hex="#77F6EE"
+  />
+  <h3>
+    He-man Character
+  </h3>
+  <Skeletor
+    Color="Purple & Blue"
+    Name="Skeletor"
+    Trait="Evil"
+    hex="#9966FF"
+  />
+  <h3>
+    Studio Ghibli Character
+  </h3>
+  <Ghibli
+    Character="Totoro"
+    Color="Grey"
+    Movie="My Neighbor Totoro"
+    hex="#808080"
+  />
 </Fragment>
 `;

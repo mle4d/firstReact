@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Ghibli({ Name, Color, Movie, hex }) {
+function Ghibli({ Character, Color, Movie, hex }) {
   return (
     <dl>
-      <dt>Name</dt>
-      <dd>{Name}</dd>
+      <dt>Character</dt>
+      <dd>{Character}</dd>
       <dt>Color</dt>
       <dd style={{ color: hex }}>{Color}</dd>
       <dt>Movie</dt>
@@ -15,7 +15,7 @@ function Ghibli({ Name, Color, Movie, hex }) {
 }
 
 Ghibli.propTypes = {
-  Name: PropTypes.string.isRequired,
+  Character: PropTypes.string.isRequired,
   Color: PropTypes.number.isRequired,
   Movie: PropTypes.string.isRequired,
   hex: PropTypes.string.isRequired
